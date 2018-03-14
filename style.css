@@ -1,0 +1,138 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+   For a screen < 720px, this CSS will be read
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body {
+  background-color: black;
+}
+
+.container {
+  width: 98%;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.top-section {
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.photo-round {
+  border-radius: 150px;
+  width:300px;
+  height: 300px;
+}
+
+.second-section {
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+}
+
+ul{
+ list-style: none;
+}
+
+ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+
+h1 {
+  color:white;
+  font-family: "Bungee shade";
+  font-size: 70px;
+
+}
+
+.sub-title {
+  font-family: "Poiret one";
+  color: black;
+  font-size: 30px;
+
+}
+
+h2 {
+  text-align: left;
+  font-size: 45px;
+  font-family: "Nothing You Could Do";
+  text-decoration: underline;
+  color: black;
+}
+h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Monoton";
+  font-weight: 400;
+  color: black;
+}
+
+h4 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Poiret One";
+  font-weight: 400;
+  color: navy;
+  padding: 8px;
+  margin: 5px;
+}
+
+p {
+  text-align: center;
+  justify-content: left;
+  font-family: "Quicksand";
+  font-size:22px;
+  margin: 3px;
+  padding: 5px;
+  justify-content: center;
+
+}
+
+
+/*
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Arvo', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+.table-image-movie {
+  width: 300px;
+  height: 450px;
+}
+
+
+.table-image {
+  max-width:300px;
+  height:auto;
+}
